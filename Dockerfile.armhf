@@ -1,5 +1,6 @@
 FROM arm32v7/python:2.7-alpine
 COPY qemu-arm-static /usr/bin/
+FROM python:3-alpine
 
 RUN mkdir /app
 WORKDIR /app
